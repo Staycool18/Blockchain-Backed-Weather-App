@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Blockchain-Backed-Weather-App
-=======
+
 # Blockchain-backed Weather App
 
 ## Introduction
@@ -8,6 +6,14 @@ The Blockchain-backed Weather App is a smart contract built on the Aptos blockch
 
 ## Vision
 The primary vision of this project is to create a trusted and decentralized weather data platform that can serve as a reliable source of information for various applications and use cases. By storing weather data on the Aptos blockchain, we can ensure the integrity and availability of this data, while also providing a secure and transparent way for authorized entities to update and access the information.
+
+## Key features:
+
+Uses Aptos's event system to emit updates
+Stores oracle address to ensure only authorized updates
+Includes timestamp tracking for data freshness
+Uses String type for location names
+Maintains temperature (Celsius) and humidity (percentage) data
 
 ## Future Goals
 The future goals of the Blockchain-backed Weather App include:
@@ -22,10 +28,22 @@ The future goals of the Blockchain-backed Weather App include:
 
 5. **Expanding to Other Weather-related Services**: Explore the potential of expanding the platform to offer additional weather-related services, such as weather alerts, historical data analysis, and climate research support.
 
+## 🗃️ Project Structure
+
+Blockchain-Backed-Weather-App/
+├── Move.toml
+└── sources/
+    └── weather_oracle.move
+    └── README.md
+   
+
 ## Deployed Address
 The Blockchain-backed Weather App smart contract is currently deployed at the following address on the Aptos network:
 
 `0x123456789abcdef0123456789abcdef`
 
 You can interact with the contract using the Aptos CLI or through compatible client applications.
->>>>>>> 658a7ae (Add modified code with recent changes)
+
+## 📝 License
+This project is licensed under the MIT License.
+
