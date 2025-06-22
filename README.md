@@ -34,8 +34,6 @@ Blockchain-Backed-Weather-App/
 ├── Move.toml
 └── sources/
     └── weather_oracle.move
-    └── README.md
-   
 
 ## Deployed Address
 The Blockchain-backed Weather App smart contract is currently deployed at the following address on the Aptos network:
