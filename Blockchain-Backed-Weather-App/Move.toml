@@ -1,0 +1,10 @@
+[package]
+name = "WeatherApp"
+version = "1.0.0"
+authors = [vedantsalvi3991@gmail.com]
+
+[addresses]
+WeatherApp = "0x123456789abcdef0123456789abcdef"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
